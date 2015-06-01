@@ -1,0 +1,30 @@
+{
+  "name": "weachy",
+  "main": "weachy.js",
+  "version": "1.0.1",
+  "homepage": "https://github.com/mmaelzer/weachy",
+  "authors": [
+    "Mike Maelzer <mmaelzer@gmail.com>"
+  ],
+  "description": "A tiny (17 lines of code) async waterfall implementation that supports CommonJS, AMD, and VanillaJS.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "async",
+    "waterfall",
+    "waterfall-async",
+    "async-waterfall",
+    "callback"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

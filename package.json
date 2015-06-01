@@ -1,0 +1,28 @@
+{
+  "name": "weachy",
+  "version": "1.0.1",
+  "description": "a tiny (17 lines of code) async waterfall module",
+  "main": "weachy.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmaelzer/weachy"
+  },
+  "keywords": [
+    "async",
+    "async-waterfall",
+    "waterfall",
+    "callback"
+  ],
+  "author": "Mike Maelzer <mmaelzer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmaelzer/weachy/issues"
+  },
+  "homepage": "https://github.com/mmaelzer/weachy",
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
+}
