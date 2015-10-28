@@ -38,10 +38,10 @@ Examples
   // waterfall is a global bound to the window object now
   waterfall([
     function(next) {
-      done(null, 1, 2, 3);
+      next(null, 1, 2, 3);
     },
     function(num1, num2, num3, next) {
-      done(null, num1 + num2, num3);
+      next(null, num1 + num2, num3);
     }
   ], function(err, sum, num3) {
     console.log(sum);
