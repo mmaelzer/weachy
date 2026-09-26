@@ -3,8 +3,6 @@ weachy
 
 A tiny (17 lines of code) async waterfall implementation that supports CommonJS, AMD, and VanillaJS. The minified file `weachy.min.js` is just 355 bytes. 
   
-[![build status](https://secure.travis-ci.org/mmaelzer/weachy.png)](http://travis-ci.org/mmaelzer/weachy)
-
 
 Install
 -------
